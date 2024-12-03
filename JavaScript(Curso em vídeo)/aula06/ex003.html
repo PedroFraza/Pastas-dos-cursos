@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+    body {
+        background-color: rgb(118, 118, 221);
+        color: azure;
+        font: normal 25px arial;
+    }
+    h1 {
+        color: blueviolet;
+    }
+    p {
+        color: brown;
+    }
+    </style>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Já me livrei da maldição</p>
+    <script>
+        var nome = window.prompt('Me diga qual o seu nome?')// Vai perguntar qual o seu nome
+        window.alert(`Meu nome é ${nome}!`)
+
+       var n1 = Number(window.prompt('Digite um número: ')) // Number() faz uma conversão de uma string para um número! 
+       var n2 = Number(window.prompt('Digite outro número: ')) // string
+       var s = n1 + n2 
+        window.alert(`O resultado da soma de ${n1} + ${n2} = ${s}.`) 
+        let N1 = Number(window.prompt('Digite um número: '))
+        let N2 = Number(window.prompt('Digite seu segundo número: '))
+        let S = N1 + N2
+        window.alert(`O resultado da soma de ${N1} + ${N2} é igual a ${S}`)
+    </script>
+</body>
+</html>

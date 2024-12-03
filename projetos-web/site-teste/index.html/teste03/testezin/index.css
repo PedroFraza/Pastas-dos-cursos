@@ -1,0 +1,40 @@
+/*O "P" declara todo os Pargráfos se não houver classe definida*/
+p{
+    color: black;
+    border: 5px solid black;
+    padding: 20px 20px 20px 20px;
+    width: 140px;
+    background-color: blueviolet;
+}
+/*declarando a classe eu uso o "."+nome da classe*/
+.ola{
+    color: blue;
+}
+/*declarando "id" eu uso o "#"+nome declarado no "id"*/
+#ola{
+    color: orange;
+}
+html{
+    padding: 0 20px 20px 15px;
+    border: 10px solid black;
+    background-color: red;
+    width: 0 auto ;
+    height: 708px  ;
+    margin: 0 auto;
+}
+body{
+    padding: 20px 20px 20px 20px;
+    border: 5px solid blue;
+    margin:0 auto;
+    height: 0 auto ;
+    width: 0 auto;
+    background-color: violet;
+}
+h1{
+    padding: 200px 200px 200px 200px;
+    border: 5px solid black;
+    width: 150px;
+    height:150px;
+    margin: 0 auto;
+    background-color: orange;
+}

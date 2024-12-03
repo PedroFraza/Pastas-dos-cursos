@@ -1,0 +1,18 @@
+p{
+    color: red;
+    width: 200px;
+    border: 1px solid black;
+}
+#primeiro{
+    color: red;
+}
+.my-class{
+    color: red;
+}
+img[src]
+{
+    width: 300px;
+}
+a:hover{
+    color: red;
+}
